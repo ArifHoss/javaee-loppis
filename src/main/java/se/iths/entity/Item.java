@@ -29,7 +29,7 @@ public class Item {
     }
 
     @PrePersist
-    public void getCurrentDate(){
+    public void getCurrentDate() {
         setCreatedAt(LocalDate.now());
     }
 
